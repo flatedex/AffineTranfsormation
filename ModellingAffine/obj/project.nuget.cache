@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mqGJ61GktmKAl/NRzCYGJw30Z4Ont+GjSr67gf8VpRIiGKqQ0AmqEO55OKbt0HN3zPeCc94wqL9wyhg4qQmaFA==",
+  "success": true,
+  "projectFilePath": "C:\\C# Projects\\ModellingAffine\\ModellingAffine\\ModellingAffine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flatedex\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\flatedex\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\flatedex\\.nuget\\packages\\scottplot\\4.1.60\\scottplot.4.1.60.nupkg.sha512",
+    "C:\\Users\\flatedex\\.nuget\\packages\\scottplot.wpf\\4.1.60\\scottplot.wpf.4.1.60.nupkg.sha512",
+    "C:\\Users\\flatedex\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\flatedex\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
