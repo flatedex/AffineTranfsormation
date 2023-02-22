@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Transactions;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.TextFormatting;
@@ -63,13 +65,12 @@ namespace ModellingAffine
 
             // getting everything back
 
-            affineMatrix = MultiplyMatrix(affineMatrix, Rotation(angleLine));
+            affineMatrix = MultiplyMatrix(affineMatrix, Rotation(angleLine)); // rotation
             this.secondR = affineMatrix;
 
             newCordsC = MultiplyMatrix(newCordsC, affineMatrix);
             newCordsD = MultiplyMatrix(newCordsD, affineMatrix);
-
-            affineMatrix = MultiplyMatrix(affineMatrix, ParallelTranslation(line[0].X, line[0].Y));
+            affineMatrix = MultiplyMatrix(affineMatrix, ParallelTranslation(line[0].X, line[0].Y)); // parallel translation
             this.secondPT = affineMatrix;
 
             newCordsA = MultiplyMatrix(newCordsA, affineMatrix);
